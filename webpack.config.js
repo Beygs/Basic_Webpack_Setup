@@ -52,6 +52,9 @@ module.exports = env => {
         }
       ]
     },
+    resolve: {
+      extensions: [".tsx", ".ts", ".js", ".jsx"]
+    },
     plugins: [
       new MiniCssExtractPlugin({
         filename: "bundle.css",
